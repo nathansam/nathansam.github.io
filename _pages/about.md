@@ -1,24 +1,30 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. MRC Human Genetics Unit & Centre for Genomic and Experimental Medicine
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>MRC Human Genetics Unit,</p>
+    <p>Institute of Genetics and Cancer,</p>
+    <p>University of Edinburgh</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Precision Medicine PhD student specialising in modelling biomarker
+trajectories and disease outcomes - in particular for inflammatory bowel
+disease. I am in the [Vallejos group](https://vallejosgroup.github.io) and
+collaborate closely with clinical colleagues in the
+[Lees group](https://charlielees.com). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have interests in survival analysis, electronic health records,
+Bayesian statistics, and machine learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also an R package developer. My packages can be found on
+[GitHub](www.github.com/nathansam).

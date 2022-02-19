@@ -1,81 +1,77 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: BASSLINE
+description: BAyeSian Survival anaLysIs usiNg shapE mixtures of log-normal distributions
+img: assets/img/bassline.png
+importance: 2
+category: Software
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+<style type="text/css">
+.sidebar {
+    height: 100%;
+    width: 250px;
+    float: right;
+    top: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidebar div {
+    padding: 40px;
+    display: block;
+    float: left; 
+}
+</style>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class = "sidebar">
+{% include figure.html path="assets/img/bassline.png" class="img-fluid rounded z-depth-1" zoomable=true%}
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<!-- badges: start -->
+[![R build status](https://github.com/nathansam/BASSLINE/workflows/R-CMD-check/badge.svg)](https://github.com/nathansam/BASSLINE/actions)
+[![codecov](https://codecov.io/gh/nathansam/BASSLINE/branch/master/graph/badge.svg)](https://codecov.io/gh/nathansam/BASSLINE)
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/BASSLINE)](https://cran.r-project.org/package=BASSLINE)
+![Top language](https://img.shields.io/github/languages/top/nathansam/BASSLINE)
+[![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/licenses/GPL-3.0)
+<!-- badges: end -->
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+## Overview
+
+Mixtures of life distributions provide a convenient framework for survival
+analysis: particularly when standard models such as the Weibull or the
+log-normal are unable to capture some features from the data. These mixtures
+can also account for unobserved heterogeneity or outlying observations.  
+
+BASSLINE (**BA**ye**S**ian **S**urvival ana**L**ys**I**s usi**N**g shap**E**
+mixtures of log-normal distributions) uses shape mixtures of log-normal 
+distributions to fit data with fat tails and has been adapted from code written
+by Vallejos & Steel[1]. Some of the functions have been rewritten in C++ for
+increased performance.
+
+5 distributions from the log-normal family are supported by BASSLINE:
+
+* The log-normal distribution
+* The log student's T distribution
+* The log-logistic distribution
+* The log-Laplace distribution
+* The log-exponential power distribution
+
+As well as MCMC (Markov chain Monte Carlo) algorithms for the 5
+distributions, additional functions which allow log-marginal likelihood
+estimators and deviance information  criteria to be calculated are provided.
+Case deletion analysis and outlier detection are also supported.
+
+
+## Installation
+
+BASSLINE is currently not available on CRAN but can be installed via the
+devtools package
+
+```R
+devtools::install_github("nathansam/BASSLINE")
 ```
-{% endraw %}
+
+## References 
+- [1] <a href="http://dx.doi.org/10.1080/01621459.2014.923316">Vallejos & Steel (2015). Journal of the American Statistical Association. </a>

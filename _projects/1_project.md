@@ -1,80 +1,139 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: datefixR
+description: Fix Really Messy Dates in R
+img: assets/img/sticker.png
 importance: 1
-category: work
+category: Software
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+<style type="text/css">
+.sidebar {
+    height: 100%;
+    width: 250px;
+    float: right;
+    top: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidebar div {
+    padding: 40px;
+    display: block;
+    float: left; 
+}
+</style>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<div class = "sidebar">
+{% include figure.html path="assets/img/sticker.png" class="img-fluid rounded z-depth-1" zoomable=true%}
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<!-- badges: start -->
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+[![R build
+status](https://github.com/nathansam/datefixR/workflows/R-CMD-check/badge.svg)](https://github.com/nathansam/datefixR/actions)
+[![codecov](https://codecov.io/gh/nathansam/datefixR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/datefixR)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/datefixR)](https://cran.r-project.org/package=datefixR)
+![Top
+language](https://img.shields.io/github/languages/top/nathansam/datefixR)
+[![License:
+GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/licenses/GPL-3.0)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/datefixR?color=blue)](https://r-pkg.org/pkg/datefixR)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5655311.svg)](https://doi.org/10.5281/zenodo.5655311)
+<!-- badges: end -->
+
+`datefixR` is designed to standardize messy date data, such as dates
+entered by different people via text boxes, by converting the dates to
+R’s Date data type.
+
+This package arose from my own fights with messy date data where dates
+were written in many different formats e.g 01-jan-15, 2015 04 02,
+10/12/2010 and more.
+
+## Installation instructions
+
+`datefixR` is now available on CRAN.
+
+{% highlight r %}
+install.packages("datefixR")
+{% endhighlight %}
+
+
+The most up-to-date (hopefully) stable version of `datefixR` can be
+installed via
+
+{% highlight r %}
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("nathansam/fixdateR")
+{% endhighlight %}
+
+If you wish to live on the cutting edge of `datefixR` development, then
+the development version can be installed via
+
+{% highlight r %}
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("nathansam/datefixR", "devel")
+{% endhighlight %}
+
+### Usage
+
+{% highlight r %}
+library(datefixR)
+bad.dates <- data.frame(id = seq(5),
+                        some.dates = c("02/05/92",
+                                       "01-04-2020",
+                                       "1996/05/01",
+                                       "2020-05-01",
+                                       "02-04-96"),
+                        some.more.dates = c("2015",
+                                            "02/05/00",
+                                            "05/1990",
+                                            "2012-08",
+                                            "jan 2020")
+                        )
+fixed.df <- fix_dates(bad.dates, c("some.dates", "some.more.dates"))
+knitr::kable(fixed.df)
+{% endhighlight %}
+
+|  id | some.dates | some.more.dates |
+|----:|:-----------|:----------------|
+|   1 | 1992-05-02 | 2015-07-01      |
+|   2 | 2020-04-01 | 2000-05-02      |
+|   3 | 1996-05-01 | 1990-05-01      |
+|   4 | 2020-05-01 | 2012-08-01      |
+|   5 | 1996-04-02 | 2020-01-01      |
+
+By default, `datefixR` imputes missing days of the month as 01, and
+missing months as 07 (July). However, this behavior can be modified via
+the `day.impute` or `month.impute` arguments.
+
+{% highlight r %}
+ example.df <- data.frame(example = "1994")
+
+fix_dates(example.df, "example", month.impute = 1)
+#>      example
+#> 1 1994-01-01
+{% endhighlight %}
+
+Functions in `datefixR` assume day-first instead of month-first when
+day, month, and year are all given (unless year is given first). However
+this behavior can be modified by passing `format = "mdy"` to function
+calls.
+
+### Limitations
+
+The package is written solely in R and seems fast enough for my current
+use cases (a few hundred rows). However, I may convert the core for loop
+to C++ in the future if I (or others) need it to be faster.
+
+### Citation
+
+If you use this package in your research, please consider citing
+`datefixR`! An up-to-date citation can be obtained by running
+
+{% highlight r %}
+citation("datefixR")
+{% endhighlight %}

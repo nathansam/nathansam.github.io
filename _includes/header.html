@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.title != "about" -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }}  <span class="font-weight-bold">{{ site.last_name }}</span>{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -26,9 +26,9 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">about
-                  {%- if page.title == "about" -%}
+              <li class="nav-item {% if page.title == 'Nathan Constantine-Cooke' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/' | relative_url }}">About
+                  {%- if page.title == "Nathan Constantine-Cooke" -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -36,7 +36,7 @@
               {% if site.blog_name %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">blog
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog
                   {%- if page.title == "blog" -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}

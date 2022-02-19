@@ -1,11 +1,35 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: Teaching I have been involved with
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<style type="text/css">
+.dash {
+    height: 100%;
+    width: 350px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dash div {
+    display: block;
+    float: left; 
+}
+</style>
 
-Organize your courses by years, topics, or universities, however you like!
+<div class="dash">
+{% include figure.html path="assets/img/Ed_DaSH.png" class="img-fluid rounded z-depth-1" zoomable=true maxwidth=10  %}
+</div>
+
+## Ed-DaSH
+
+
+
+I am an instructor/helper for [Ed-Dash workshops](https://edcarp.github.io/Ed-DaSH/): Carpentry-style workshops which teach data science to those with health/bioscience backgrounds. 
+
+I have instructed on [Introduction to Statistics with R](https://edcarp.github.io/2022-01-17_ed-dash_intro-statistics/) which introduces
+statistical thinking and linear regression in R. 
+

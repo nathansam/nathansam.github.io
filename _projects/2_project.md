@@ -1,80 +1,40 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: The PREdiCCt study
+description: The PRognostic effect of Environmental factors in Crohn’s and Colitis Study
+img: assets/img/predicct.png
 importance: 2
-category: work
+category: Analysis
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<iframe src="https://www.youtube.com/embed/UwbcF4B7-tY" width="720" height="405" frameborder="0"></iframe>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[PREdiCCt](https://www.predicct.co.uk/) (The PRognostic effect of Environmental factors in Crohn’s and Colitis)
+is a UK-wide cohort study investigating which environmental, genetic, and
+microbial factors are associated with disease flare in patients with Crohn’s
+disease, ulcerative colitis, and inflammatory bowel disease unclassified (IBDU).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Patients were recruited after being in remission for at least two months. During
+recruitment, participants completed initial questionnaires. Shortly after
+recruitment, patients completed lifestyle and environmental questionnaires and a
+four-day weighed food diary via a web-portal. Saliva and stool samples for
+genetic and microbial analysis respectively were sent in by participants.
+The stool sample is also used to measure gut inflammation by using faecal
+calprotectin levels.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The progress of patients is then monitored over two years. Participants are
+asked to complete monthly questionnaires through the web-portal. If a
+participant experiences a flare then they are asked to notify the PREdiCCt team
+and provide an additional stool sample.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+How the environmental and microorganism factors recorded at the time of the
+flare differ with the baseline data is of interest to this study. The difference
+in baseline measurements between those who flare and those who do not will also
+be investigated.
 
+As a member of the statistical analysis committee, I have provided statistical
+insights for the main analysis. I am also using this date to model IBD outcomes
+over time using longitudinally collected data.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+PREdiCCt is kindly funded by [Cure Crohn’s & Colitis](http://www.curecrohnscolitis.org/),
+[Crohn’s and Colitis in Childhood](https://www.3cs.org.uk), [NHS Lothian](https://www.nhslothian.scot.nhs.uk/Pages/default.aspx) and the [Chief Scientist Office](https://www.cso.scot.nhs.uk/).
