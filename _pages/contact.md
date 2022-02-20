@@ -28,9 +28,7 @@ h2.category {
 
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"> LinkedIn <i class="fab fa-linkedin"></i></a>
 
-
 ## Find me at
-
 
 <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"> Google Scholar <i class="ai ai-google-scholar"></i></a>
 
