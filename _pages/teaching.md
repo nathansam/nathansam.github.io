@@ -18,7 +18,15 @@ nav: true
     display: block;
     float: left; 
 }
+
+h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    text-align: right;
+}
 </style>
+
+<h2 class = "category"></h2>
 
 <div class="dash">
 {% include figure.html path="assets/img/Ed_DaSH.png" class="img-fluid rounded z-depth-1" zoomable=true maxwidth=10  %}
@@ -32,6 +40,7 @@ I have instructed on [Introduction to Statistics with R](https://edcarp.github.i
 statistical thinking and linear regression in R. 
 
 <br>
+
 
 ## Talks
 

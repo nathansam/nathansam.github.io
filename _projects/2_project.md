@@ -3,7 +3,7 @@ layout: page
 title: The PREdiCCt study
 description: The PRognostic effect of Environmental factors in Crohn’s and Colitis Study
 img: assets/img/predicct.png
-importance: 2
+importance: 1
 category: Analysis
 ---
 
