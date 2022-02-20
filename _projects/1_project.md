@@ -5,9 +5,9 @@ description: Fix Really Messy Dates in R
 img: assets/img/sticker.png
 importance: 1
 category: Software
+github: "https://www.github.com/nathansam/datefixR"
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 <style type="text/css">
 .sidebar {
     height: 100%;

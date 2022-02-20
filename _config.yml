@@ -10,8 +10,6 @@ email: nathan.constantine-cooke@ed.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A precision medicine PHD Student predicting outcomes in inflammatory bowel disease
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: IBD Precision-medicine Research  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -83,7 +81,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: PREdiCCting IBD Outcomes  # your blog must have a name for it to show up in the nav bar
-blog_description: "Updates on my PhD research: predicting disease flare and progression in Crohn's disease and ulcerative colitis" 
+blog_description: "Updates on my research" 
 permalink: /blog/:year/:title/
 
 # Pagination

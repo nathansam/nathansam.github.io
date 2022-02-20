@@ -9,7 +9,7 @@ nav: true
 <style type="text/css">
 .dash {
     height: 100%;
-    width: 350px;
+    width: 250px;
     float: right;
     padding-left: 20px;
     padding-right: 20px;
@@ -26,10 +26,14 @@ nav: true
 
 ## Ed-DaSH
 
-
-
 I am an instructor/helper for [Ed-Dash workshops](https://edcarp.github.io/Ed-DaSH/): Carpentry-style workshops which teach data science to those with health/bioscience backgrounds. 
 
 I have instructed on [Introduction to Statistics with R](https://edcarp.github.io/2022-01-17_ed-dash_intro-statistics/) which introduces
 statistical thinking and linear regression in R. 
 
+<br>
+
+## Talks
+
+I have also given a multitude of research talks. PDFs of my slides can be found
+on [GitHub](https://github.com/nathansam/talks).

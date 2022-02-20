@@ -5,6 +5,7 @@ description: BAyeSian Survival anaLysIs usiNg shapE mixtures of log-normal distr
 img: assets/img/bassline.png
 importance: 2
 category: Software
+github: "https://www.github.com/nathansam/BASSLINE"
 ---
 
 <style type="text/css">
