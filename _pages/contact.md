@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /contact/
-title: Contact Page
+title: Contact
 description: "How to contact/find me online:"
 nav: true
 order: 5
