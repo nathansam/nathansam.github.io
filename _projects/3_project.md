@@ -6,6 +6,7 @@ img: assets/img/bassline.png
 importance: 2
 category: Software
 github: "https://www.github.com/nathansam/BASSLINE"
+redirect: "https://www.constantine-cooke.com/BASSLINE/"
 ---
 
 <style type="text/css">
