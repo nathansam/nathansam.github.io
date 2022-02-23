@@ -10,7 +10,10 @@ redirect: true
 var allposts = [];  
 function redirectToCorrectPage() {
   console.log("Unable to find page. Trying other URL cases.");
-	{% for post in site.pages %}  
+  var temp = site.pages
+  temp.push("https://wwww.constantine-cooke.com/datefixR")
+  temp.push("https://wwww.constantine-cooke.com/BASSLINE")
+	{% for post in temp %}  
 		allposts.push("{{ post.url }}");  
 	{% endfor %}  
 	var url = window.location.pathname;
