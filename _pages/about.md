@@ -23,6 +23,6 @@ My research interests include survival analysis, electronic health records,
 Bayesian statistics, and machine learning.
 
 I am also an R package developer. My packages can be found on
-[GitHub](www.github.com/nathansam).
+[GitHub](https://www.github.com/nathansam).
 
 In my personal life, I enjoy swimming, the gym, and all things technology.
