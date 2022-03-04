@@ -3,6 +3,10 @@
 ---
 @charset "utf-8";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 // Dimensions
 $max-content-width: {{ site.max_width }};
 

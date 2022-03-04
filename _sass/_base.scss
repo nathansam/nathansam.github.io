@@ -287,6 +287,7 @@ footer.sticky-bottom {
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    @apply text-lg
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;

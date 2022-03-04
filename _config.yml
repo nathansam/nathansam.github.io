@@ -140,6 +140,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-postcss-v2
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
