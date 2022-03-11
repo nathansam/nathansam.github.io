@@ -163,7 +163,6 @@ defaults:
     values:
       sitemap:         true
 # Extras
-github: [metadata]
 
 # -----------------------------------------------------------------------------
 # Jekyll optimization
