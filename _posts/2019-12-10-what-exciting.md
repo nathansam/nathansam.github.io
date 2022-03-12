@@ -5,7 +5,7 @@ date: 2019-12-10 12:21:00-0000
 description: "Alternatively titled: Why I was insane enough to travel from Edinburgh to London and back in one day."
 tags: BSG IBD
 categories: Conference
-img: assets/img/bsg.jpg
+img: bsg
 comments: true
 ---
 {% include figure.html path="assets/img/bsg.jpg" class="img-fluid rounded z-depth-1" zoomable=true%}

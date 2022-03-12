@@ -279,15 +279,11 @@ footer.sticky-bottom {
 }
 
 .post-list {
-  margin: 0;
-  margin-bottom: 40px;
-  padding: 0;
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    @apply text-lg
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
@@ -467,7 +463,7 @@ footer.sticky-bottom {
           }
         }
       }
-      .hidden {
+      .secret {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
@@ -488,7 +484,7 @@ footer.sticky-bottom {
           padding: 10px;
         }
       }
-      .hidden.open {
+      .secret.open {
         max-height: 100em;
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
@@ -496,10 +492,10 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
-      div.abstract.hidden {
+      div.abstract.secret {
         border: dashed 1px var(--global-bg-color);
       }
-      div.abstract.hidden.open {
+      div.abstract.secret.open {
         border-color: var(--global-text-color);
       }
     }

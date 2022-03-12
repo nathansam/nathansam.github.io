@@ -4,34 +4,30 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-        <header class="post-header">
+
           <h1 class="post-title text-3xl">
            {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} <span class="font-weight-bold">{{ site.last_name }}</span>{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc text-xl">{{ page.subtitle }}</p> <br>
-        </header>
+
+          <br>
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-              {% include figure.html 
-              path=profile_image_path 
-              class="z-dept-1 rounded-lg"
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
+          <div class = "md:flex gap-4">
+            <div class="flex-auto">
+              {{ content }}
             </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+            <div class = "rounded-xl justify-self-center flex-auto">
+              <picture>
+                <source srcset="{{site.url}}/assets/img/prof_pic-800.webp" type="image/webp">
+                <source srcset="{{site.url}}/assets/img/prof_pic.jpg" type="image/jpeg"> 
+                <img src="{{site.url}}/assets/img/c.-vallejos-group-800.webp" alt="Avatar" class="w-60 rounded-3xl mx-auto" />
+              </picture>
+            </div>
+        </div>
+        <br>
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+        
 
           {% if page.news -%}
           <!-- News -->

@@ -2,7 +2,7 @@
 layout: parse
 ---
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="{{ site.lang }}" class = {{data-theme}}></html>
 
   <!-- Head -->
   <head>
@@ -14,6 +14,8 @@ layout: parse
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+
     <div class = "font-sans">
     <!-- Header -->
     {%- include header.html %}
@@ -22,6 +24,7 @@ layout: parse
     <div class="container mt-5">
       {{ content }}
     </div>
+
 
     <!-- Footer -->
     {%- include footer.html %}
