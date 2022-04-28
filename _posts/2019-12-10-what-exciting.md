@@ -8,7 +8,7 @@ categories: Conference
 img: bsg
 comments: true
 ---
-{% include figure.html path="assets/img/bsg.jpg" class="img-fluid rounded z-depth-1" zoomable=true%}
+{% include figure.html path="assets/img/bsg-800.webp" class="img-fluid rounded z-depth-1" zoomable=true%}
 
 I know in my last blog post I said I would be talking about previous attempts to predict IBD flares in published research but plans change! On the 11th November, I attended the [British Society of Gastroenterology's](https://www.bsg.org.uk) IBD principal investigators meeting in London where the leads on some of the most exciting IBD studies in the UK spoke about their research (or prospective research). It was truly brilliant to meet so many people enthusiastic about research in IBD. There were talks and posters on IBD studies in addition to plenty of opportunities to have discussions. For this blog post, I am going to talk about some of the studies discussed at the meeting. In the interest of word count and due to the nature of some studies, I've not been able to talk about every project discussed at the meeting but here are some of them!
 
