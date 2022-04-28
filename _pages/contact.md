@@ -37,5 +37,3 @@ h2.category {
 <a href="https://github.com/{{ site.github_username }}" title="GitHub"> GitHub <i class="fab fa-github"></i></a>
 
 <a href="{{ site.work_url }}" title="Work"> University profile <i class="fas fa-briefcase"></i></a>
-
-<h2 class = "category"></h2>
