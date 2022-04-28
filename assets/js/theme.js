@@ -29,13 +29,6 @@ let setTheme = (theme) =>  {
 };
 
 
-let transTheme = () => {
-  document.documentElement.classList.add("transition");
-  window.setTimeout(() => {
-    document.documentElement.classList.remove("transition");
-  }, 500)
-}
-
 
 let initTheme = (theme) => {
   if (theme == null) {
