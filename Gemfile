@@ -6,15 +6,21 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
+    gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'jekyll-postcss-v2'
+end
+group :other_plugins do
+    gem 'httparty'
+    gem 'feedjira'
 end

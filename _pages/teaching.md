@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Teaching I have been involved with
 nav: true
+nav_order: 5
 ---
 
 <style type="text/css">
