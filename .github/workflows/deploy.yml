@@ -21,7 +21,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0.2'
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          bundler-cache: false # runs 'bundle install' and caches installed gems automatically
       # Install Node as this is needed for PostCSS
       - name: Setup Node
         uses: actions/setup-node@v3
