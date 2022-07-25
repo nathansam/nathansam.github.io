@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 description: "How to contact/find me online:"
 nav: true
-order: 5
+nav_order: 5
 ---
 
 

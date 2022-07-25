@@ -4,8 +4,8 @@ title: Projects
 permalink: /projects/
 description: A growing collection of projects I have worked on.
 nav: true
-nav_order: 2
-display_categories: [Analysis, Software]
+nav_order: 1
+display_categories: [Analysis]
 horizontal: false
 ---
 

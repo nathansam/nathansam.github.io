@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Teaching I have been involved with
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <style type="text/css">
@@ -38,7 +38,7 @@ h2.category {
 I am an instructor/helper for [Ed-Dash workshops](https://edcarp.github.io/Ed-DaSH/): Carpentry-style workshops which teach data science to those with health/bioscience backgrounds. 
 
 I have instructed on [Introduction to Statistics with R](https://edcarp.github.io/2022-01-17_ed-dash_intro-statistics/) which introduces
-statistical thinking and linear regression in R. 
+statistical thinking and linear regression in R and [High-Dimensional Statistics with R](https://edcarp.github.io/2022-05-17_ed-dash_high-dim-stats/) which teaches statistical and computational methods applicable to the high-dimensional data commonly found in biomedical science. 
 
 <br>
 

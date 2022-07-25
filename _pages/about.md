@@ -26,4 +26,5 @@ Bayesian statistics, and machine learning.
 I am also an R package developer. My packages can be found on
 [GitHub](https://www.github.com/nathansam).
 
-In my personal life, I enjoy swimming, the gym, and all things technology.
+In my personal life, I enjoy swimming, the gym, playing bass guitar, and all
+things technology.

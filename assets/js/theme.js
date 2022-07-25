@@ -10,7 +10,6 @@ let toggleTheme = (theme) => {
 
 
 let setTheme = (theme) =>  {
-  transTheme();
   setHighlight(theme);
 
   if (theme) {
@@ -39,7 +38,6 @@ let setHighlight = (theme) => {
     document.getElementById("highlight_theme_light").media = "";
   }
 }
-
 
 
 let initTheme = (theme) => {

@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 description: "My <em>Curriculum Vitae</em>"
 nav: true
-order: 6
+nav_order: 6
 ---
 
  <div>
