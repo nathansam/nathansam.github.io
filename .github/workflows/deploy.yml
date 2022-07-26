@@ -20,13 +20,13 @@ jobs:
       # https://github.com/ruby/setup-ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.0  # Not needed with a .ruby-version file
+          ruby-version: 2.7 # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       # Install Node as this is needed for PostCSS
       - name: Setup Node
-      -  uses: actions/setup-node@v3
+        uses: actions/setup-node@v3
         with:
-          node-version: '18.6.0'
+          node-version: '14'
       # Install PostCSS plugins (from your package.json)
       - name: Install Tailwind
         run: |
@@ -36,7 +36,18 @@ jobs:
       - name: Build site
       # use jekyll-action-ts to build
       # https://github.com/limjh16/jekyll-action-ts
-      - uses: helaili/jekyll-action@v2
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+          # custom_opts: '--verbose --trace'  #'--drafts --future'
+          ### If you need to specify any Jekyll build options, enable the above input
+          ### Flags accepted can be found here https://jekyllrb.com/docs/configuration/options/#build-command-options
+      # use actions-gh-pages to deploy
+      # https://github.com/peaceiris/actions-gh-pages
+      - name: Build site
+      # use jekyll-action-ts to build
+      # https://github.com/limjh16/jekyll-action-ts
+        uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
