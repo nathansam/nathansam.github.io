@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: '18'
       - name: Install imagemagick
-        run: sudo apt-get install -y imagemagick
+        run: sudo apt-get install -y imagemagick php5-imagick
       # Install PostCSS plugins (from your package.json)
       - name: Install Tailwind
         run: |
