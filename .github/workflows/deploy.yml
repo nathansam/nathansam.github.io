@@ -18,9 +18,9 @@ jobs:
       uses: actions/checkout@v3
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
-      with: 
+      with:
         ruby-version: '3.0.2'
-        bundler-cache: true
+        bundler-cache: false
       # Install Node as this is needed for PostCSS
     - name: Setup Node
       uses: actions/setup-node@v3
