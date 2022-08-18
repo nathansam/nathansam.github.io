@@ -21,6 +21,7 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: false
+      run: bundle install
       # Install Node as this is needed for PostCSS
     - name: Setup Node
       uses: actions/setup-node@v3
