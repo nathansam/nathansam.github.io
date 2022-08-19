@@ -186,7 +186,7 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  exclude: ['robots.txt', '*.js']
   uglifier_args:
     harmony: true
   
