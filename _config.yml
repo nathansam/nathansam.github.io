@@ -246,7 +246,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: Constantine-Cooke
-  first_name: Nathan
+  first_name: [Nathan, Nathan Samuel]
   style: apa
   locale: en
 
