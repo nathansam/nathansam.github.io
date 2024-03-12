@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<b>Affiliations:</b> MRC Human Genetics Unit & Centre for Genomic and Experimental Medicine"
+subtitle: "<b>Affiliations:</b> Centre for Genomic and Experimental Medicine and MRC Human Genetics Unit"
 
 profile:
   align: right
@@ -14,14 +14,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Precision Medicine PhD student specialising in modelling biomarker
-trajectories and disease outcomes for inflammatory bowel
-disease. I am in the [Vallejos group](https://vallejosgroup.github.io) and
-collaborate closely with clinical colleagues in the
-[Lees group](https://charlielees.com). 
+I am a postdoctoral research associate in health data science with interested
+in modelling longitudinal biomarker trajectories and disease outcomes for
+inflammatory bowel disease. I am in the [Lees group](https://charlielees.com) in
+the
+[Centre for Genomic and Experimental Medicine](https://www.ed.ac.uk/centre-genomic-medicine)
+and in the
+[Vallejos group](https://vallejosgroup.github.io) in the
+[MRC Human Genetics Unit](https://www.ed.ac.uk/mrc-human-genetics-unit). 
 
-My research interests include survival analysis, electronic health records,
-Bayesian statistics, and machine learning.
+My research interests include longitudinal modelling, survival analysis,
+electronic health records, and machine learning.
 
 I am also an R package developer. My packages can be found on
 [GitHub](https://www.github.com/nathansam).
