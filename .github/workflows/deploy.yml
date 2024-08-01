@@ -25,7 +25,7 @@ jobs:
       run: bundle install
       # Install Node as this is needed for PostCSS
     - name: Setup Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
           node-version: '18.7.0'
     - name: Install imagemagick
