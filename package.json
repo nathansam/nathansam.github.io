@@ -2,7 +2,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.20",
-    "cssnano": "^7.0.4",
+    "cssnano": "^7.0.5",
     "mermaid.cli": "^0.5.1",
     "postcss": "^8.4.40",
     "postcss-cli": "^11.0.0",
