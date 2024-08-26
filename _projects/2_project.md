@@ -9,7 +9,7 @@ category: Analysis
 
 <iframe src="https://www.youtube.com/embed/UwbcF4B7-tY" width="720" height="405" frameborder="0"></iframe>
 
-[PREdiCCt](https://www.predicct.co.uk/) (The PRognostic effect of Environmental factors in Crohn’s and Colitis)
+PREdiCCt (The PRognostic effect of Environmental factors in Crohn’s and Colitis)
 is a UK-wide cohort study investigating which environmental, genetic, and
 microbial factors are associated with disease flare in patients with Crohn’s
 disease, ulcerative colitis, and inflammatory bowel disease unclassified (IBDU).
