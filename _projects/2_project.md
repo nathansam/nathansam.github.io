@@ -1,13 +1,14 @@
 ---
 layout: page
-title: The PREdiCCt study
+title: The PREdiCCt Study
 description: The PRognostic effect of Environmental factors in Crohn’s and Colitis Study
-img: assets/img/predicct.png
+img: assets/img/predicct-480.webp
 importance: 1
 category: Analysis
 ---
 
 <iframe src="https://www.youtube.com/embed/UwbcF4B7-tY" width="720" height="405" frameborder="0"></iframe>
+<br>
 
 PREdiCCt (The PRognostic effect of Environmental factors in Crohn’s and Colitis)
 is a UK-wide cohort study investigating which environmental, genetic, and

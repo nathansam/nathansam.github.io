@@ -13,6 +13,33 @@ p {
   margin-bottom: 10px;
 }
 
+
+.heading {
+  font-size: xx-large;
+}
+
+.subheading {
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+.language-r {
+  padding-bottom: 10px;
+}
+
+.language-bash {
+  padding-bottom: 10px;
+}
+
+.language-bibtex {
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: large;
+}
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

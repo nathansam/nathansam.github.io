@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of projects I have worked on.
 nav: true
 nav_order: 1
-display_categories: [Analysis]
+display_categories: [Analysis, Software]
 horizontal: false
 ---
 
