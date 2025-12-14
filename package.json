@@ -8,7 +8,7 @@
     "postcss-cli": "^11.0.1",
     "postcss-import": "16.1.1",
     "postcss-scss": "^4.0.9",
-    "puppeteer": "^24.31.0",
-    "tailwindcss": "^4.1.17"
+    "puppeteer": "^24.33.0",
+    "tailwindcss": "^4.1.18"
   }
 }
