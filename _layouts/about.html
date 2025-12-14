@@ -13,15 +13,15 @@ layout: default
           <br>
 
         <article>
-          <div class = "md:flex gap-4">
-            <div class="flex-auto">
+          <div class = "flex gap-4">
+            <div class="flex-1">
               {{ content }}
             </div>
-            <div class = "rounded-xl justify-self-center flex-auto">
+            <div class = "rounded-xl flex-none">
               <picture>
                 <source srcset="{{site.url}}/assets/img/prof_pic-800.webp" type="image/webp">
                 <source srcset="{{site.url}}/assets/img/prof_pic.jpg" type="image/jpeg"> 
-                <img src="{{site.url}}/assets/img/c.-vallejos-group-800.webp" alt="Avatar" class="w-60 rounded-3xl mx-auto" />
+                <img src="{{site.url}}/assets/img/c.-vallejos-group-800.webp" alt="Avatar" class="w-60 rounded-3xl" style="max-width: 15rem;" />
               </picture>
             </div>
         </div>
