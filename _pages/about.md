@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<b>Affiliations:</b> Centre for Genomic and Experimental Medicine and MRC Human Genetics Unit"
+subtitle: "<b>Affiliations:</b> Institute of Genetics and Cancer, University of Edinburgh"
 
 profile:
   align: right
@@ -17,11 +17,10 @@ social: true  # includes social icons at the bottom of the page
 I am a Postdoctoral Research Associate in Health Data Science at the
 [University of Edinburgh](https://www.ed.ac.uk/) interested in modelling
 longitudinal biomarker trajectories and disease outcomes for inflammatory bowel
-disease. I am in the [Lees group](https://charlielees.com)
-([Centre for Genomic and Experimental Medicine](https://www.ed.ac.uk/centre-genomic-medicine))
-and in the
+disease. I am in the [Lees group](https://charlielees.com) and 
 [Vallejos group](https://vallejosgroup.github.io)
-([MRC Human Genetics Unit](https://www.ed.ac.uk/mrc-human-genetics-unit)). 
+within the
+[Institute of Genetics and Cancer](https://institute-genetics-cancer.ed.ac.uk/)
 
 My research interests include longitudinal modelling, survival analysis,
 electronic health records, and machine learning.
